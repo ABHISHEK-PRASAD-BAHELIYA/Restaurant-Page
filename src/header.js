@@ -1,13 +1,7 @@
-import createContentPage from "./about";
-import createMenuPage from "./menu";
-import createRestaurantHomePage from "./restaurant";
-
-
-
+    // Create header
 const createTabs = () => {
     const body = document.body;
 
-    // Create header
     const header = document.createElement('header');
     const containerHeader = document.createElement('div');
     containerHeader.className = 'container';
@@ -29,13 +23,6 @@ const createTabs = () => {
     containerHeader.appendChild(nav);
     header.appendChild(containerHeader);
     body.appendChild(header);
-}
+};
 
-function clearContent() {
-    const content = document.querySelector("#content");
-    const pageContent = document.querySelector('#page-content');
-    if(pageContent) {
-        content.removeChild(pageContent);
-    }
-}
 export default createTabs;
