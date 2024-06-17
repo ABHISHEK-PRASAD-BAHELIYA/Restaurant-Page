@@ -54,12 +54,12 @@ header nav ul li a:hover {
 
 /* Hero Section Styles */
 #hero {
-    background-image: url('./assets/table.jpeg');
+    background-image: url('../dist/assets/background.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 10rem 1.6rem;
+    padding: 14rem 1.8rem;
     position: relative;
     z-index: 1;
 }
