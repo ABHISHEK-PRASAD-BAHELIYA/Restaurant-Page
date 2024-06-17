@@ -3,6 +3,7 @@ import createMenuPage from './menu.js';
 import createRestaurantHomePage from './restaurant.js';
 import createTabs from './header.js';
 import createHeaderPage from './footer.js';
+import './style.css';
 
 
 function initialLoad() {

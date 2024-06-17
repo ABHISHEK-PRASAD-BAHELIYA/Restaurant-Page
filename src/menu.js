@@ -11,12 +11,12 @@ const createMenuPage = () => {
     const menuGrid = document.createElement('div');
     menuGrid.className = 'menu-grid';
     const dishes = [
-        { name: ' French toast', description: 'French toast is a dish of sliced bread soaked in beaten eggs and often milk or cream.', price: '$10.99', img: '../dist/assets/item1.jpeg' },
-        { name: 'Borosil Oval Baking', description: 'The ovul baking dish perfect for baked dishes, lasagnas, raviolis, au gratins.', price: '$12.99', img: '../dist/assets/item2.jpeg' },
-        { name: 'Breakfast Salad', description: 'Healthy and tasty salads which are perfect for breakfast.', price: '$12.99', img: '../dist/assets/item3.jpeg' },
-        { name: 'Pizza', description: 'classic pizza with fresh tomatoes, mozzarella and tomato, and basil.', price: '$12.99', img: '../dist/assets/item4.jpeg' },
-        { name: 'Pizza', description: 'classic pizza with fresh tomatoes, mozzarella and tomato, and basil.', price: '$25.99', img: '../dist/assets/hero-image.jpeg' },
-        { name: 'Pizza', description: 'classic pizza with fresh tomatoes, mozzarella and tomato, and basil.', price: '$99.99', img: '../dist/assets/table.jpeg' },
+        { name: ' French toast', description: 'French toast is a dish of sliced bread soaked in beaten eggs and often milk or cream.', price: '$10.99', img: './assets/item1.jpeg' },
+        { name: 'Borosil Oval Baking', description: 'The ovul baking dish perfect for baked dishes, lasagnas, raviolis, au gratins.', price: '$12.99', img: './assets/item2.jpeg' },
+        { name: 'Breakfast Salad', description: 'Healthy and tasty salads which are perfect for breakfast.', price: '$12.99', img: './assets/item3.jpeg' },
+        { name: 'Pizza', description: 'classic pizza with fresh tomatoes, mozzarella and tomato, and basil.', price: '$12.99', img: './assets/item4.jpeg' },
+        { name: 'Pizza', description: 'classic pizza with fresh tomatoes, mozzarella and tomato, and basil.', price: '$25.99', img: './assets/hero-image.jpeg' },
+        { name: 'Pizza', description: 'classic pizza with fresh tomatoes, mozzarella and tomato, and basil.', price: '$99.99', img: './assets/table.jpeg' },
     ];
     dishes.forEach(dish => {
         const menuItem = document.createElement('div');
